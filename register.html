@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>欢迎注册</title>
+<link rel="stylesheet" type="text/css" href="css/register.css"/>
+<script type="text/javascript">
+  window.onload=function(){
+    var oTxt = document.getElementById('txt');
+    oTxt.onmouseover=function(){
+      this.select();
+    }
+  }
+  </script>
+</head>
+
+<body>
+<div class="head">
+<h1><a href="#"><img src="images/logo.gif" width="118" height="37" /></a></h1>
+  <div class="head_txt"></div>
+  <div class="help">
+  	<a href="#">反馈意见</a><a href="#">帮助</a>
+  </div>
+</div>
+<div class="con_wrap">
+<div class="con_tit">
+  	<b class="con_tit_l"></b>
+      <h2 class="con_tit_c">欢迎注册有机食品购物商城！您可以通过163、126、qq邮箱等方式进行注册。</h2>
+      <b class="con_tit_r"></b>
+  </div>
+<div class="con">
+ 	<div class="box">
+ 	  <dl>
+        <dt><span>*</span> 邮件地址</dt>
+        <dd>
+       	  <input id="txt" type="text" class="txt" autofocus value="建议输入手机号码" />
+          <b>@</b>
+          <select>
+          	<option>163.com</option>
+            <option>126.com</option>
+            <option>qq.com</option>
+          </select>
+        </dd>
+    </dl>
+    <div class="txt">6-18个字符，可使用字母、数字、下划线。推荐以手机号码直接注册</div>
+  </div>
+      <div class="box">
+      	<dl>
+         	  <dt><span>*</span> 密码</dt>
+              <dd>
+             	  <input type="password" class="txt txt_l" />
+              </dd>
+          </dl>
+          <div class="txt">6~16个字符，区分大小写直接注册</div>
+      </div>
+      <div class="box">
+      	<dl>
+          	<dt><span>*</span> 确认密码</dt>
+              <dd>
+             	  <input type="password" class="txt txt_l" />
+              </dd>
+          </dl>
+          <div class="txt">请再次输入密码</div>
+      </div>
+       <div class="box">
+      	<dl>
+          	<dt>手机号码</dt>
+              <dd>
+              	<input type="password" class="txt txt_l" />
+              </dd>
+          </dl>
+          <div class="txt">密码遗忘或被盗时，可通过手机短信取回密码</div>
+      </div>
+      <div class="box">
+      	<dl>
+          	<dt><span>*</span> 验证码</dt>
+              <dd>
+              	<input type="password" class="txt txt_l" />
+       			<a href="#" class="yz"><img src="images/yz.jpg" width="120" height="25" /></a>
+              </dd>
+          </dl>
+          <div class="txt">请输入图片中的字符，不区分大小写 <a href="#">不清楚？换张图片</a></div>
+  </div>
+  <div class="agree">
+  	<input type="checkbox" checked="checked" />同意“<a href="#">服务条款</a>”和“<a href="#">隐私权保护和个人信息利用政策</a>”
+  </div>
+  <input type="button" class="btn" />
+</div>
+</div>
+<div class="foot">
+<a href="#">关于中绿三品</a><a href="#">关于中绿三品商城</a><a href="#">官方博客</a><a href="#">客户服务<a href="#">隐私政策</a>  |<span>中绿三品公司版权所有 ? 1998-2020</span>
+</div>
+</body>
+</html>

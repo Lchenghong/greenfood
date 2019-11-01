@@ -1,0 +1,34 @@
+body{margin:0; padding:0; font:12px "微软雅黑"; background:#F1F1F1;}
+h1,h2,dl,dt,dd,p,input,img{margin:0; padding:0; border:0;}
+a{color:#3882C1; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.head{width:954px; height:57px; margin:0 auto; padding-top:20px;}
+h1{background:url(../images/dot_bg.jpg) repeat-y right top; width:140px; float:left;}
+.head_txt{width:286px; height:25px; float:left; background:url(../images/text.png) no-repeat; margin:8px 0 0 20px;}
+.help{width:104px; height:57px; line-height:50px; float:right;}
+.help a{margin-left:10px;}
+/*content*/
+.con_wrap{width:954px; height:540px; margin:0 auto;}
+.con_tit{width:954px; height:46px; background:#CFC}
+.con_tit_l{width:42px; height:46px; background:url(../images/tit_bg1.jpg) no-repeat; float:left;}
+.con_tit_c{width:891px; height:46px; background:url(../images/tit_bg2.jpg) repeat-x; float:left; font-size:16px; font-weight:normal; line-height:46px; color:#FFF; padding-left:16px;}
+.con_tit_r{width:5px; height:46px; background:url(../images/tit_bg3.jpg) no-repeat; float:left;}
+.con{width:690px; height:402px; border:1px solid #CCC; border-top:0; background:#FFF; padding:46px 0 45px 262px;}
+.box{height:62px;}
+.box dl{height:35px;}
+.box dt{width:69px; height:35px; float:left; font-size:14px; line-height:30px; text-align:right; padding-right:10px;}
+.box dt span{color:#F00; font-family:"宋体";}
+.box dd{width:540px; height:35px; float:left;}
+.box dd .txt{width:195px; height:25px; line-height:25px; border:1px solid #C1C1C1; background:url(../images/input_bg.jpg) repeat-x; color:#9D9D9D; float:left;}
+.box dd .txt_l{width:311px;}
+.box dd b{float:left; margin:3px 5px 0;}
+.box dd select{float:left; margin-top:2px;}
+.box dd .yz{margin-left:8px;}
+.box .txt{height:27px; padding-left:79px; color:#C1C1C1;}
+.agree{height:56px; padding-left:79px;}
+.agree input{margin:2px 5px 0 0; float:left; _margin:-1px 0 0 0;}
+.btn{width:104px; height:37px; background:url(../images/but.jpg) no-repeat; margin-left:79px;}
+/*foot*/
+.foot{width:954px; height:50px; line-height:50px; text-align:center; margin:0 auto; color:#666;}
+.foot a{color:#666; margin-right:10px;}
+.foot span{padding-left:10px;}

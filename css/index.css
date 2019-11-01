@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+/*主页部分开始*/
+.main{height:312px; width:980px;margin:0 auto; margin-top:10px; border-radius:5px 5px 0 0;}
+.main-hd{padding:10px 0 10px 8px; border-bottom:1px solid #E0E0E0; background-color:#fff;}
+.main-hd li{width:226px; height:74px; background:url(../images/main-hd-li-bg.jpg) no-repeat; float:left; margin-right:5px; padding:11px 0 0 11px;}
+.main-hd h2{ height:24px;}
+.main-hd p{margin-left:40px; line-height:19px;}
+.main-bd{height:210px; background:url(../images/main-bd-bg.jpg) repeat-x; }
+.show{ height:200px; float:left; background:url(../images/show-bg.jpg) no-repeat right top; padding:10px 10px 0 10px;}
+.show h2{ height:60px; background:url(../images/content_r1_c1.jpg) no-repeat; overflow:hidden;}
+.show h2 a{display:block;width:35px; height:24px; background:url(../images/more.jpg) no-repeat; margin-left:auto; margin-top:6px;}
+.aboutus{ width:302px; }
+.aboutus dt{border:1px solid #ccc; float:left; padding:3px; margin-top:3px;}
+.aboutus dd{float:left; width:182px; margin-left:10px;}
+.aboutus dd a{color:#398D00;}
+.products{width:388px;}
+.products li{float:left; width:123px; margin-right:8px;}
+.products li.nomargin{margin-right:0;}
+.products li p{ text-align:center; padding-top:5px;}
+.products li div{border:1px solid #ccc; padding:2px;}
+.products h2{ background-image:url(../images/content_r1_c3.jpg);}
+.contact{ width:229px; background:none;}
+.contact h2{ background-image:url(../images/content_r3_c5.jpg);}
+
+
+

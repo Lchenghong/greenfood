@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘！我喜欢</title>
+	<link rel="stylesheet" type="text/css" href="css/car.css"/>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/magnify.js"></script>
+	<script type="text/javascript">
+	window.onload=function(){
+		function changePic(canshu1,canshu2,canshu3){
+			var oPic=document.getElementById('pic');
+			var oLi=document.getElementById(canshu1);
+			var oBigpic=document.getElementById('bigpic');
+			oLi.onmouseover=function(){
+				oPic.style.background=canshu2;
+				oBigpic.style.background=canshu3;
+			}
+		}
+		changePic('li01','url(images/x1.jpg) no-repeat left top','url(images/d1.jpg) no-repeat left top');
+		changePic('li02','url(images/x2.jpg) no-repeat left top','url(images/d2.jpg) no-repeat left top');
+		changePic('li03','url(images/x3.jpg) no-repeat left top','url(images/d3.jpg) no-repeat left top');
+		changePic('li04','url(images/x4.jpg) no-repeat left top','url(images/d4.jpg) no-repeat left top');
+		changePic('li05','url(images/x5.jpg) no-repeat left top','url(images/d5.jpg) no-repeat left top');
+	}
+	</script>
+
+</head>
+<body>
+	<div class="abox">
+		<div class="topbox">
+			<div class="textbox">
+				<h2>19年新米吉林柳河姜家店大米蛙田贡米有机食品稻花香新米10KG</h2>
+				<a href="#">用户评价</a>
+			</div>
+		</div>
+		<div class="bigbox">
+			<div class="bigbox-l">
+				<div class="photo" id="pic">
+					<span></span>
+					<div class="bigphoto" id="bigpic"></div>
+				</div>
+				<div class="small">
+					<ul>
+						<li id="li01">
+							<a href="#">
+								<img src="images/xx1.jpg_.webp" height="50" width="50">
+							</a>
+						</li>
+						<li id="li02">
+							<a href="#">
+								<img src="images/xx2.jpg_.webp" height="50" width="50">
+							</a>
+						</li>
+						<li id="li03">
+							<a href="#">
+								<img src="images/xx3.jpg_.webp" height="50" width="50">
+							</a>
+						</li>
+						<li id="li04">
+							<a href="#">
+								<img src="images/xx4.jpg_.webp" height="50" width="50">
+							</a>
+						</li>
+						<li id="li05">
+							<a href="#">
+								<img src="images/xx5.jpg_.webp" height="50" width="50">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="popular">
+					<b>&#xe503;</b>
+					<span>收藏宝贝 (215人气)</span>
+				</div>
+			</div>
+			<div class="bigbox-r">
+				<h1>19年新米吉林柳河姜家店大米蛙田贡米有机食品稻花香新米10KG</h1>
+				<div class="price">
+					<div class="price-t">
+						<div class="money">
+							<span>价格</span><s>￥258.00</s>
+						</div>
+						<div class="cm">
+							<b>1022</b><br>
+							<span>累计评论</span>
+						</div>
+						<div class="dian"></div>
+						<div class="ch">
+							<b>102</b><br>
+							<span>交易成功</span>
+						</div>
+					</div>
+					<div class="price-b">
+						<span>优惠价</span>
+						<b>￥198.00</b>
+						<div class="discount">优惠促销</div>
+					</div>
+				</div>
+				<div class="give">
+					<div class="gift">赠品</div>
+					<p>送你一个洗脸盆，再送你一条毛巾</p>
+				</div>
+				<div class="address">
+					<b>&#xe638;</b>
+					<div class="address-info">
+						<span class="item">福建省</span>
+						<span class="item">福州市</span>
+						<span class="item">连江县</span>
+						<span class="item">潘渡乡</span>
+						<span class="item">福州理工学院</span>
+						<span class="xiugai">修改</span><br>
+						<span class="sale">有现货</span>
+					</div>
+				</div>
+				<div class="buy">
+					<div class="buynow">立即购买</div>
+					<div class="addcar">
+						<b>&#xe501;</b>加入购物车
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

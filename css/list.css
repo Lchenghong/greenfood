@@ -1,0 +1,17 @@
+/* 列表页css */
+.list-main{ width:960px; margin:0 auto; background-color:#fff; border-radius:5px 5px 0 0 ; padding:10px; margin-top:10px;}
+.list-l{width:214px;  float:left; }
+.list-l ul,.list-l p{ background-color:#f4f4f4; border-left:1px solid #E0E0E0; border-right:1px solid #E0E0E0; margin:0 7px;}
+.list-l ul li{height:32px; line-height:32px; background:url(../images/list-l-li-bg.jpg) no-repeat left bottom; padding-left:12px;}
+.list-l ul li a{ background:url(../images/arr.jpg) no-repeat left center; padding-left:15px;display:block;}
+.list-l ul li a:hover{ background-image:url(../images/arrhover.jpg);}
+.list-l p{background:none; font-family:"宋体"; padding:0 12px;}
+.list-r{width:734px; float:right;}
+.list-r-hd{height:50px; background:url(../images/list-r-t.jpg) no-repeat;}
+.list-r-hd h4{float:left; margin:15px 0 0 50px; color:#333; font-size:14px; display:inline;}
+.list-r-hd span{float:right; margin:18px 26px 0 0 ;}
+.list-r ul{margin:11px 15px 0;}
+.list-r ul li{height:37px; line-height:37px; background:url(../images/list-r-li-bg.jpg) repeat-x left bottom; margin-bottom:8px;}
+.list-r ul li a{background:url(../images/square.jpg) no-repeat 5px center; padding-left:15px; float:left;}
+.list-r li span{ float:right; color:#060}
+.list-r p{ text-align:center; margin-top:30px;}

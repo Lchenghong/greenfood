@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>公司简介-绿色食品网</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/list.css"/>
+    <link rel="stylesheet" type="text/css" href="css/article.css"/>
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/returntop.js"></script>
+    <script src="js/nav.js"></script>
+    <script>
+    $(function() {
+
+        var num=0;
+        var timer=null;
+        timer=setInterval(function(){
+            num++;
+            $('progress').get(0).value=num;
+            //更改span里边内容
+            $('section span').html( num+'%' );
+            if(num==100){
+                clearInterval(timer);
+                //让视频播放
+                $('video').get(0).play();
+            }
+        },30);
+    });
+    </script>
+</head>
+
+<body>
+<!-- 返回顶部 -->
+<span class="returntop"></span>
+<!--头部开始-->
+<div class="header">
+	<div class="logo">
+    	<h1>
+        	<a href="index.html" title="绿色食品网-绿色健康就是这么任性">绿色食品网-绿色健康就是这么任性</a>
+        </h1>
+    </div>
+</div>
+<!--导航栏开始-->
+<div class="site-nav">
+	<div class="nav">
+    	<ul>
+        	<li class="firstli"><a href="index.html">网站首页</a></li>
+        	<li><a href="list.html">公司新闻</a></li>
+        	<li><a href="list.html">行业动态</a></li>
+        	<li><a href="list.html">基地管理</a></li>
+        	<li><a target="blank" href="mall.html">会员服务</a></li>
+        	<li><a target="blank" href="mall.html">网上购物</a></li>
+        	<li><a target="blank" href="mall.html">产品展示</a></li>
+        	<li><a href="aboutus.html">关于我们</a></li>
+        	<li class="lastli"><a target="_blank" href="me.html">作品介绍</a></li>
+        </ul>
+        <audio src="music/a1.mp3"></audio>
+        <audio src="music/a2.mp3"></audio>
+        <audio src="music/a3.mp3"></audio>
+        <audio src="music/a4.mp3"></audio>
+        <audio src="music/a5.mp3"></audio>
+        <audio src="music/a6.mp3"></audio>
+        <audio src="music/a7.mp3"></audio>
+        <audio src="music/a8.mp3"></audio>
+        <audio src="music/a8.mp3"></audio>
+    </div>
+
+</div>
+
+<!--banner 部分-->
+<div class="banner">
+    <img src="images/banner.jpg" />
+</div>
+<!--页面主体部分-->
+<section>
+    <strong>loading</strong>
+    <progress min="0" max="100" value="0"></progress>
+    <span>0%</span>
+    <br><br>
+    <video src="video/green.mp4" controls></video>
+</section>
+
+
+<div class="list-main clearfix">
+    <div class="list-l">
+        <div class="list-l-t">
+            <h2><img src="images/list-l_r1_c4.jpg" /></h2>
+            <ul>
+                <li><a target="blank" href="mall.html">新鲜蔬菜</a></li>
+                <li><a target="blank" href="mall.html">米面粮油</a></li>
+                <li><a target="blank" href="mall.html">肉蛋禽奶</a></li>
+                <li><a target="blank" href="mall.html">干果干货</a></li>
+                <li><a target="blank" href="mall.html">礼品套装</a></li>
+                <li><a target="blank" href="mall.html">茶品之道</a></li>
+                <li><a target="blank" href="mall.html">健康养生</a></li>
+                <li><a target="blank" href="mall.html">新鲜蔬菜</a></li>
+                <li><a target="blank" href="mall.html">米面粮油</a></li>
+                <li><a target="blank" href="mall.html">肉蛋禽奶</a></li>
+            </ul>
+            <span><img src="images/list-l_r4_c1.jpg" /></span>
+        </div>
+        <div class="list-l-b">
+            <h2><img src="images/list-l_r1_c2.jpg" /></h2>
+            <p>地  址：福建省福州市绿色路未来大厦6层<br/>     
+                邮  编：100191<br/>  
+                热线电话：010-62358888 <br/>                                
+                传  真：010-88636666<br/>  
+                邮  箱：lssp@lssp.com  
+            </p>
+            <span><img src="images/list-l_r4_c1.jpg" /></span>
+        
+        </div>
+    </div>
+    <div class="list-r">
+           <div class="list-r-hd">
+           <h4>关于我们</h4>
+            <span>您现在所在的位置：首页 > <a href="list.html">关于我们</a></span>
+            </div>
+            <div class="article">
+            <h2>公司简介</h2>
+            <p>中国有机绿色食品实业有限公司注册成立于1994年，是中国绿色食品的开创者，也是中国有机食品最早的倡导者和先驱者之一。公司主要经营项目涉及种植业、养殖业、食品加工业、商业、仓储运输业、进出口贸易、产业园区建设、农业产业托管服务、农业发展与项目咨询服务业等领域。            
+            </p>
+            <p>现已形成以有机、绿色食品及农产业相关产品开发、生产、经营及进出口贸易为主，带动相关产业发展的综合性实体。注册并拥有了“顺意生”、“中绿三品”、“大婴孩”等商标，经过多年的市场洗练，已发展成为国内安全食品行业的知名品牌。公司有着良好的企业外部环境和丰富的社会资源，同国内外政府、团体、客户和消费者保持着融洽的关系，有严谨、负责、优质的企业形象。</p>
+            <p>公司自成立以来一直承担着国家重点项目的建设开发任务：【中国绿色食品生产、加工及销售一体化项目】该项目是国家发改委2004年、2005年（发改经贸[2004]928号，1293号文），（发改办经贸[2005]1145号文，1779号文）及（发改投资[2005]1947号文）批复的流通业结构调整专项资金（国债）投资计划的国家级项目。总投资规模1.79亿元。</p>
+            <p>新形势为有机绿色食品事业提供了新的历史机遇，目前我国食品卫生安全隐患已经引起党中央国务院领导的高度重视，食品安全已成为社会关注的焦点，为我公司的发展提供了有利因素。公司将致力于有机、绿色生态农业的研究、粮油食品的开发、蔬菜的有机栽培，使绿色有机农产品更具特色，为消费者提供更多、更好的优质食品。</p>
+            <p>我们将秉承“诚信立天下”的宗旨，竭尽所能力促进中国有机绿与色食品产品的健康发展，并且致力于提高全国食品与农产业质量发展标准而努力。</p>
+            <p>2016年开始，公司相应党和国家倡导与号召，积极投身于扶贫事业，依托企业自身优势，立足于全国脱贫攻坚大方针政策，在河南周口、广西桂林等地开展了多种形式的产业扶贫项目，每年带动超过2000个贫困户，超过1万人的产业脱贫。</p>
+            <p>2017年公司多方面发展，在江苏扬州大仪镇全面建设了“现代化有机循环农产业园区”项目（总占地1.49万亩），并于“中国华电-江苏仪征热电”共同建设开发了100兆瓦农光互补发电项目（4月份全面并网发电），开创了全国首家“有机农业+光伏发电+农产业科普旅游教育”为主题的综合产业项目。</p>
+        </div>
+        
+    </div>
+</div>
+
+
+<!--侧导航栏开始-->
+<div class="subnav">
+    <a href="index.html">网站首页</a>　|　
+    <a href="list.html">公司新闻</a>　|　
+    <a href="list.html">行业动态</a>　|　
+    <a href="list.html">基地管理</a>　|　
+    <a target="blank" href="mall.html">会员服务</a>　|　
+    <a target="blank" href="mall.html">网上购物</a>　|　
+    <a target="blank" href="mall.html">产品展示</a>　|　
+    <a href="aboutus.html">关于我们</a>
+</div>
+<!-- 底部开始 -->
+<div class="footer">
+	<div class="footer-in">
+    	<div class="copyright">
+        	电话：010-62358888　传真：010-88636666　客服电话：400-0809-560<br />
+            绿色食品（福建）有限公司 版权所有 闽ICP备11036362号　
+        </div>
+        <div class="sublogo">
+        </div>
+    </div>
+</div>
+</body>
+</html>

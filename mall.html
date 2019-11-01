@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>购物商城-绿色食品网</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/mall.css"/>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/autoplay.js"></script>
+	<script src="js/serve.js"></script>
+	<script src="js/returntop.js"></script>
+	<script>
+	$(function(){
+		$('.code s').click(function(){
+			$('.code').slideUp(500);
+		});
+		/*//导航效果
+		var h1 = $('.search-bd-l').offset().top; //获取导航到顶部的偏移量
+		$(window).scroll(function(event){
+			var h = $(window).scrollTop();
+			if (h>h1) {
+				$('.search-bd-l').css({
+					'position':'fixed',
+					'top':'0'
+				});
+			}else{
+				$('.search-bd-l').css({
+					'position':'static'
+				});
+			}
+		});*/
+		$('.menu').hover(function(){
+			$('.menu .second').stop().toggle(500);
+		});
+
+		var h = $(document).height();
+		$('.down').css({
+			'height':h,
+		});
+		$('.loginmmd').click(function(event) {
+			$('.down,.up').fadeIn(500);
+		});
+		$('.up span').click(function(event) {
+			$('.down,.up').fadeOut(500);
+		});
+	});	
+	</script>
+</head>
+<body>
+	<!-- 返回顶部 -->
+	<span class="returntop"></span>
+	<!-- site-nav start -->
+	<div class="site-nav">
+		<div class="site-nav-bd">
+	    	<ul class="site-nav-bd-l">
+	        	<li><a target="blank"  class="hot loginmmd">亲，请登录</a> <a target="blank" href="register.html">免费注册</a></li>
+	            <li><a href="#">手机逛商城</a></li>
+	        </ul>
+	        <ul class="site-nav-bd-r">
+	        	<li>
+	            	<a href="#">我的商城</a>
+	                <span class="arrow"></span>
+	            </li>
+	            <li>
+	            	<a href="#">
+	                	<span class="star car"></span>购物车
+	                </a>
+	                <span class="arrow arrowed"></span>
+	            </li>
+	            <li class="love">
+	            	<a href="#">
+	                	<span class="star"></span>收藏夹
+	                </a>
+	                <span class="arrow"></span>
+	            </li>
+	            <li><a href="#">商品分类</a></li>
+	            <li class="line">|</li>
+	            <li>
+	            	<a href="#">卖家中心</a>
+	                <span class="arrow"></span>
+	            </li>
+	            <li>
+	            	<a href="#">联系客服</a>
+	                <span class="arrow"></span>
+	            </li>
+	            <li>
+	            	<a href="#">
+	                	<span class="star webnav"></span>网站导航
+	                </a>
+	                <span class="arrow arrowed"></span>
+	            </li>
+	        </ul>
+	    </div>
+	</div>
+	<!-- top start -->
+	<div class="top">
+		<div class="logo">
+	    	<div>
+	        	<h1>
+	            	<a href="#">绿色食品商城</a>
+	            </h1>
+	        </div>
+	    </div>
+	    <div class="search">
+	    	<div class="search-hd">
+	        	<ul>
+	            	<li class="current">食品</li>
+	                <li>店铺</li>
+	            </ul>
+	        </div>
+	        <div class="search-bd">
+	        	<div class="search-bd-l">
+	            	<div class="search-input">
+	                	<div>
+	                        <i></i>
+	                        <span><input type="text" autofocus value="" /></span>
+	                        <s></s>
+	                    </div>
+	                </div>
+	                <div class="search-btn">
+	                	<button>搜 索</button>
+	                </div>
+	            </div>
+	            <div class="search-bd-r">高级<br />搜索</div>
+	        </div>
+	        <div class="search-ft">
+	        	<a href="#">有机奶粉</a>
+	            <a href="#">有机杂粮</a>
+	            <a href="#" class="hot">有机水果</a>
+	            <a href="#">有机蔬菜</a>
+	            <a href="#">大米</a>
+	            <a href="#">食用油</a>
+	            <a href="#">鸡蛋</a>
+	            <a href="#">有机杂粮</a>
+	            <a href="#">食用油</a>
+	            <a href="#">大米</a>
+	            <a href="#">鸡蛋</a>
+	        	<a href="#" class="more">更多&gt;</a>
+	        </div>
+	    </div>
+	    <div class="code">
+	    	<span>手机逛商城</span>
+	        <img src="images/code_07.png" />
+	        <s></s>
+	    </div>
+	</div>
+	<!-- body start -->
+	<div class="screen">
+		<div class="menu">
+			<h2 class="menu-hd">所有商品分类</h2>
+			<div>
+				<ul>
+					<li><a href="#">蔬菜水果</a></li>
+					<li><a href="#">米面粮油</a></li>
+					<li><a href="#">肉蛋禽奶</a></li>
+					<li><a href="#">海鲜水产</a></li>
+					<li><a href="#">干果干货</a></li>
+					<li><a href="#">礼品套装</a></li>
+					<li><a href="#">酒水茶饮</a></li>
+					<li><a href="#">健康养生</a></li>
+					<li><a href="#">进口食品</a></li>
+					<li><a href="#">同城鲜果</a></li>
+				</ul>
+			</div>
+			<div class="second">
+				<ol>
+					<li>西红柿</li>
+					<li>花菜</li>
+					<li>食用油</li>
+					<li>菌类</li>
+					<li>大米</li>
+					<li>调味品</li>
+					<li>鸡蛋</li>
+					<li>猪肉</li>
+					<li>鸡肉</li>
+					<li>进口干果</li>
+				</ol>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="wrap-hd">
+				<ul>
+					<li><a href="#" style="color: #41ab25;">首页</a></li>
+					<li><a href="#">蔬菜</a></li>
+					<li><a href="#">米面粮油</a></li>
+					<li><a href="#">健康养生</a></li>
+					<li><a href="#">海鲜</a></li>
+				</ul>
+			</div>
+			<div class="wrap-bd">
+				<ul>
+					<li style="z-index:1;"><img src="images/top1.png" height="478" width="960" alt="" /></li>
+					<li><img src="images/top2.png" alt="" /></li>
+					<li><img src="images/top3.png" alt="" /></li>
+					<li><img src="images/top4.png" alt="" /></li>
+					<li><img src="images/top5.png" alt="" /></li>
+				</ul>
+				<ol>
+					<li class="current">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ol>
+				<span class="left"></span>
+				<span class="right"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="goodsBox_1">  
+  		<div class="xm-box">
+		<h4 class="title"><span>新品上架</span> <a class="more" href="#">更多</a></h4>
+		<div id="show_new_area" class="clearfix">
+		      <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr1.jpg" alt="稻花香大米5Kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米5Kg">稻花香大米5Kg</a></p>   
+		 市场价：<font class="market">￥332.99元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥332.99元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr2.jpg" alt="稻花香大米2.5KG袋装" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米2.5KG袋装">稻花香大米2.5KG袋装</a></p>   
+		 市场价：<font class="market">￥169.30元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥169.30元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr3.jpg" alt="虹稻香大米礼盒装5kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="虹稻香大米礼盒装5kg">虹稻香大米礼盒装5kg</a></p>
+		           
+		           
+		 市场价：<font class="market">￥432.90元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥432.90元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+       
+		           <a target="_blank" href="car.html"><img src="images/pr4.jpg" alt="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮">顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤...</a></p>
+		           
+		           
+		 市场价：<font class="market">￥26.16元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥26.16元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr5.jpg" alt="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送">中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送</a></p>
+		           
+		           
+		 市场价：<font class="market">￥20.20元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥20.20元                     </font>      
+				    
+		        </div>
+		   
+		    </div>
+		</div>
+	</div>
+
+	<div class="goodsBox_1">  
+  		<div class="xm-box">
+		<h4 class="title"><span>米面粮油</span> <a class="more" href="#">更多</a></h4>
+		<div id="show_new_area" class="clearfix">
+		      <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr6.jpg" alt="稻花香大米5Kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米5Kg">稻花香大米5Kg</a></p>   
+		 市场价：<font class="market">￥332.99元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥332.99元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr7.jpg" alt="稻花香大米2.5KG袋装" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米2.5KG袋装">稻花香大米2.5KG袋装</a></p>   
+		 市场价：<font class="market">￥169.30元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥169.30元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr8.jpg_.webp" alt="虹稻香大米礼盒装5kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="虹稻香大米礼盒装5kg">虹稻香大米礼盒装5kg</a></p>
+		           
+		           
+		 市场价：<font class="market">￥432.90元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥432.90元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+       
+		           <a target="_blank" href="car.html"><img src="images/pr9.jpg_.webp" alt="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮">顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤...</a></p>
+		           
+		           
+		 市场价：<font class="market">￥26.16元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥26.16元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr10.jpg_.webp" alt="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送">中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送</a></p>
+		           
+		           
+		 市场价：<font class="market">￥20.20元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥20.20元                     </font>      
+				    
+		        </div>
+		   
+		    </div>
+		</div>
+	</div>
+
+	<div class="goodsBox_1">  
+  		<div class="xm-box">
+		<h4 class="title"><span>蔬菜水果</span> <a class="more" href="search.php?intro=new">更多</a></h4>
+		<div id="show_new_area" class="clearfix">
+		      <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr11.jpg_.webp" alt="稻花香大米5Kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米5Kg">稻花香大米5Kg</a></p>   
+		 市场价：<font class="market">￥332.99元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥332.99元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr12.jpg_.webp" alt="稻花香大米2.5KG袋装" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米2.5KG袋装">稻花香大米2.5KG袋装</a></p>   
+		 市场价：<font class="market">￥169.30元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥169.30元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr13.jpg_.webp" alt="虹稻香大米礼盒装5kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="虹稻香大米礼盒装5kg">虹稻香大米礼盒装5kg</a></p>
+		           
+		           
+		 市场价：<font class="market">￥432.90元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥432.90元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+       
+		           <a target="_blank" href="car.html"><img src="images/pr14.jpg_.webp" alt="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮" class="goodsimg" /></a><br />
+		           <p class="f1"><a target="_blank" href="car.html" title="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮">顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤...</a></p>
+		           
+		           
+		 市场价：<font class="market">￥26.16元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥26.16元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr15.jpg_.webp" alt="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送" class="goodsimg" /></a><br />
+		           <p class="f1"><a target="_blank" href="car.html" title="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送">中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送</a></p>
+		           
+		           
+		 市场价：<font class="market">￥20.20元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥20.20元                     </font>      
+				    
+		        </div>
+		   
+		    </div>
+		</div>
+	</div>
+
+	<div class="goodsBox_1">  
+  		<div class="xm-box">
+		<h4 class="title"><span>精品推荐</span> <a class="more" href="#">更多</a></h4>
+		<div id="show_new_area" class="clearfix">
+		      <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr16.jpg_.webp" alt="稻花香大米5Kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米5Kg">稻花香大米5Kg</a></p>   
+		 市场价：<font class="market">￥332.99元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥332.99元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr17.jpg_.webp" alt="稻花香大米2.5KG袋装" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="稻花香大米2.5KG袋装">稻花香大米2.5KG袋装</a></p>   
+		 市场价：<font class="market">￥169.30元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥169.30元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr18.jpg_.webp" alt="虹稻香大米礼盒装5kg" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="虹稻香大米礼盒装5kg">虹稻香大米礼盒装5kg</a></p>
+		           
+		           
+		 市场价：<font class="market">￥432.90元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥432.90元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+       
+		           <a target="_blank" href="car.html"><img src="images/pr19.jpg_.webp" alt="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤全国顺丰包邮">顺意生 中国有机绿色食品  新鲜健康绿色蔬菜 新鲜采摘黄秋葵 羊角菜 羊角椒1斤...</a></p>
+		           
+		           
+		 市场价：<font class="market">￥26.16元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥26.16元                     </font>      
+				    
+		        </div>
+		    <div class="goodsItem">
+		       
+		           <a target="_blank" href="car.html"><img src="images/pr20.jpg_.webp" alt="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送" class="goodsimg" /></a><br />
+		           <p class="f1"><a href="#" title="中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送">中国有机绿色食品 小毛芋头500g 新鲜芋头 顺丰配送</a></p>
+		           
+		           
+		 市场价：<font class="market">￥20.20元</font> <br/>
+		      
+		           本店价：<font class="f1">
+		                     ￥20.20元                     </font>      
+				    
+		        </div>
+		   
+		    </div>
+		</div>
+	</div>
+
+
+
+	<!-- footer start -->
+	<div class="footer-zd">
+		<ul>
+    		<li class="quanqiu">
+				<a target="_blank" href="#"></a>
+			</li>
+        	<li class="chandi">
+				<a target="_blank" href="#"></a>
+			</li>
+        	<li class="qcll">
+				<a target="_blank" href="#"></a>
+			</li>
+        	<li class="sfzd">
+				<a target="_blank" href="#"></a>
+			</li>
+    	</ul>
+	</div>
+	<div class="footer">
+		<div class="footer-t">
+	    	<div class="footer-inner">
+	        	<dl>
+	            	<dt>新手上路</dt>
+	                <dd><a href="#">售后流程</a></dd>
+	                <dd><a href="#">购物流程</a></dd>
+	                <dd><a href="#">订购方式</a></dd>
+	                <dd><a href="#">用户注册</a></dd>
+	            </dl>
+	            <dl>
+	            	<dt>配送与支付</dt>
+	                <dd><a href="#">货到付款区域</a></dd>
+	                <dd><a href="#">配送支付</a></dd>
+	                <dd><a href="#">支付方式说明</a></dd>
+	            </dl>
+	            <dl>
+	            	<dt>会员中心</dt>
+	                <dd><a href="#">资金管理</a></dd>
+	                <dd><a href="#">我的收藏</a></dd>
+	                <dd><a href="#">我的订单</a></dd>
+	            </dl>
+	            <dl>
+	            	<dt>服务保证</dt>
+	                <dd><a href="#">退换货原则</a></dd>
+	                <dd><a href="#">售后保证</a></dd>
+	                <dd><a href="#">质量保证</a></dd>
+	            </dl>
+	            <dl>
+	            	<dt>联系我们</dt>
+	                <dd><a href="#">网站故障</a></dd>
+	                <dd><a href="#">投诉与建议</a></dd>
+	            </dl>
+	            <div class="weixin">
+	       	    	<img src="images/weixin.png" width="115" height="115" /> 
+	            </div>
+	        </div>
+	    </div>
+	    <div class="footer-b">
+	    	<p>版权所有 2006 - 2019 福建绿色有机食品有限公司官网商城 版权所有 闽ICP备08001421号闽公网安备110108007702</p>
+	    </div>
+	</div>
+	<!-- 客服广告 -->
+	<div class="serve">
+		<img src="images/q.png" height="269" width="256" alt="" />
+		<span>
+			<img src="images/qqLopen.gif" height="136" width="26" alt="" />
+		</span>
+	</div>
+
+	<div class="down"></div>
+	<div class="up">
+		<span></span>
+	</div>
+
+</body>
+</html>
